@@ -31,9 +31,10 @@ def func3():
 #
 # You are left with the exercise of calling all three functions.
 
-def using_functions(f_iter):
-    for func in f_iter:
-        func()
+def using_functions(f1, f2, f3):
+    f1()
+    f2()
+    f3()
 
 if __name__ == "__main__":
-    using_functions((func1, func2, func3,))
+    using_functions(func1, func2, func3)
